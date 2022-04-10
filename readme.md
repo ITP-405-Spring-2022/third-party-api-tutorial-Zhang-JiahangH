@@ -10,47 +10,47 @@ Supported Methods: GET
 
 3. Request Parameters:
     3.1 key=[key] (REQUIRED)
-        key - Your API Key.
+        * key - Your API Key.
 
     3.2 lang=[language](optional)
-        en - [DEFAULT] English
-        ar - Arabic
-        az - Azerbaijani
-        be - Belarusian
-        bg - Bulgarian
-        bs - Bosnian
-        ca - Catalan
-        cz - Czech
-        da - Danish
-        de - German
-        fi - Finnish
-        fr - French
-        el - Greek
-        es - Spanish
-        et - Estonian
-        ja - Japanese
-        hr - Croation
-        hu - Hungarian
-        id - Indonesian
-        it - Italian
-        is - Icelandic
-        iw - Hebrew
-        kw - Cornish
-        lt - Lithuanian
-        nb - Norwegian Bokmål
-        nl - Dutch
-        pl - Polish
-        pt - Portuguese
-        ro - Romanian
-        ru - Russian
-        sk - Slovak
-        sl - Slovenian
-        sr - Serbian
-        sv - Swedish
-        tr - Turkish
-        uk - Ukrainian
-        zh - Chinese (Simplified)
-        zh-tw - Chinese (Traditional)
+        * ar - Arabic
+        * en - [DEFAULT] English
+        * az - Azerbaijani
+        * be - Belarusian
+        * bg - Bulgarian
+        * bs - Bosnian
+        * ca - Catalan
+        * cz - Czech
+        * da - Danish
+        * de - German
+        * fi - Finnish
+        * fr - French
+        * el - Greek
+        * es - Spanish
+        * et - Estonian
+        * ja - Japanese
+        * hr - Croation
+        * hu - Hungarian
+        * id - Indonesian
+        * it - Italian
+        * is - Icelandic
+        * iw - Hebrew
+        * kw - Cornish
+        * lt - Lithuanian
+        * nb - Norwegian Bokmål
+        * nl - Dutch
+        * pl - Polish
+        * pt - Portuguese
+        * ro - Romanian
+        * ru - Russian
+        * sk - Slovak
+        * sl - Slovenian
+        * sr - Serbian
+        * sv - Swedish
+        * tr - Turkish
+        * uk - Ukrainian
+        * zh - Chinese (Simplified)
+        * zh-tw - Chinese (Traditional)
 
     3.3 units=[units](optional)
         M - [DEFAULT] Metric (Celcius, m/s, mm)
