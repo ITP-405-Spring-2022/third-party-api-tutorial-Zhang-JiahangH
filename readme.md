@@ -15,7 +15,9 @@ Supported Methods: GET
         ``
 
     >3.2 lang=[language](optional)  
-    >>en - [DEFAULT] English  
+    >>
+        ``
+        en - [DEFAULT] English  
         ar - Arabic  
         az - Azerbaijani  
         be - Belarusian  
@@ -52,7 +54,8 @@ Supported Methods: GET
         tr - Turkish  
         uk - Ukrainian  
         zh - Chinese (Simplified)  
-        zh-tw - Chinese (Traditional)  
+        zh-tw - Chinese (Traditional) 
+        `` 
   
     >3.3 units=[units](optional)
         M - [DEFAULT] Metric (Celcius, m/s, mm)
