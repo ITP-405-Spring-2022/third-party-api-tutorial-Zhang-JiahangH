@@ -14,7 +14,7 @@ Supported Methods: GET
         key - Your API Key.
         ``
 
-    >3.2 lang=[language](optional) 
+    >3.2 lang=[language](optional)  
         >>en - [DEFAULT] English  
         >>ar - Arabic  
         >>az - Azerbaijani  
