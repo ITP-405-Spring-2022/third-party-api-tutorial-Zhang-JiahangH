@@ -15,8 +15,7 @@ Supported Methods: GET
         ``
 
     >3.2 lang=[language](optional)  
-    >>
-        `` 
+    >> ``
         en - [DEFAULT] English  
         ar - Arabic  
         az - Azerbaijani  
