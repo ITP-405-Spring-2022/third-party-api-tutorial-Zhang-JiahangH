@@ -56,6 +56,7 @@ Supported Methods: GET
         zh-tw - Chinese (Traditional) 
   
     >3.3 units=[units](optional)
+    >>
         M - [DEFAULT] Metric (Celcius, m/s, mm)
         S - Scientific (Kelvin, m/s, mm)
         I - Fahrenheit (F, mph, in)
