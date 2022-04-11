@@ -98,7 +98,7 @@ Supported Methods: GET
     });
     ```
 
-    > Result (JSON): on <a href="http://0.0.0.0/weather" target="_blank">http://0.0.0.0/weather</a>
+    > Result (JSON): on <a href="https://assignment7-jiahang.herokuapp.com/weather" target="_blank"> /path/to/weather </a>
     ```
     {
         data: [
