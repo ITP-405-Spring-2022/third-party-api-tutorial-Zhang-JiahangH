@@ -60,8 +60,15 @@ Supported Methods: GET
         S - Scientific (Kelvin, m/s, mm)
         I - Fahrenheit (F, mph, in)
 
+4. How to get your API key:
+    >4.1 Register/Login at <a href="https://www.weatherbit.io/" target="_blank">weather.io</a>  
 
-4. API Endpoints
+    >4.2 First time user: you will need to set up your account info:
+    <img src="images/setup.png">
+    >> For tiers, we can choose this free plan:
+    <img src="images/choice.png">  
+    
+5. API Endpoints
     | Description                              | Required Parameters | Example |
     | :--------------------------------------- | :------------------ | :----------------|
     | Get observation by lat/lon (Recommended) | lat,lon             | &lat=38.123&lon=-78.543 |
@@ -74,7 +81,7 @@ Supported Methods: GET
     | Get multiple observations by lat/lon(s) | points | &points=(35.88,-78.79),(47.45,-122.3),(43.3,-2.93) |
 
 
-5. Example Request:
+6. Example Request:
     > URL: 
     >> https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=API_KEY&include=minutely  
 
@@ -85,7 +92,7 @@ Supported Methods: GET
     });
     ```
 
-    > Result (JSON): on <a href="http://0.0.0.0/weather">http://0.0.0.0/weather</a>
+    > Result (JSON): on <a href="http://0.0.0.0/weather" target="_blank">http://0.0.0.0/weather</a>
     ```
     {
         data: [
