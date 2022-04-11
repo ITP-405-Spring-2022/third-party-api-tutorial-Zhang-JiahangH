@@ -86,7 +86,7 @@ Supported Methods: GET
     ```
 
     > Result (JSON):
-    ``` JSON
+    ```
     {
     data: [
         {
