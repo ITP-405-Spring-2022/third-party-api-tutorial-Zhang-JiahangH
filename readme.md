@@ -66,3 +66,7 @@ Supported Methods: GET
     | :--------------------------------------- | :------------------ |
     | Get observation by lat/lon (Recommended) | lat,lon             |
     | Get observation by city name             | city, state(optional), country (optional) |
+    | Get observation by postal code | postal_code, country (optional)	|
+    | Get observation by city id's	| city_id	|
+    | Get observation by ICAO or station id [Use with Caution] | station |
+    | Get multiple observations from a list of city id's | cities |
