@@ -85,7 +85,7 @@ Supported Methods: GET
     });
     ```
 
-    > Result (JSON): on <a href="0.0.0.0/weather">0.0.0.0/weather</a>
+    > Result (JSON): on <a href="http://0.0.0.0/weather">http://0.0.0.0/weather</a>
     ```
     {
         data: [
