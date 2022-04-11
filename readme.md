@@ -65,8 +65,10 @@ Supported Methods: GET
 
     >4.2 First time user: you will need to set up your account info:
     <img src="images/setup.png">  
-    > For tiers, we can choose this free plan:
+    For tiers, we can choose this free plan:
     <img src="images/choices.png">  
+    Then, our API key is in our account page(only can access after login)
+    <img src="images/info.png">  
     
 5. API Endpoints
     | Description                              | Required Parameters | Example |
