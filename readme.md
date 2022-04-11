@@ -66,7 +66,7 @@ Supported Methods: GET
     >4.2 First time user: you will need to set up your account info:
     <img src="images/setup.png">
     >> For tiers, we can choose this free plan:
-    <img src="images/choice.png">  
+    <img src="images/choices.png">  
     
 5. API Endpoints
     | Description                              | Required Parameters | Example |
