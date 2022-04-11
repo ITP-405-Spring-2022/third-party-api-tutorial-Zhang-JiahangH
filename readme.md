@@ -85,8 +85,8 @@ Supported Methods: GET
     });
     ```
 
-    > Result (JSON):
-    ``` json
+    > Result (JSON): on <a href="0.0.0.0/weather">0.0.0.0/weather</a>
+    ```
     {
         data: [
             {
@@ -135,3 +135,4 @@ Supported Methods: GET
         count: 1
     }
     ```
+
