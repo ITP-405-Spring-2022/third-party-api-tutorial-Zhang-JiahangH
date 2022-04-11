@@ -77,6 +77,7 @@ Supported Methods: GET
 5. Example Request:
     > URL: 
     >> https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=API_KEY&include=minutely  
+    
     > Code: 
     ``` PHP
     Route::get('/weather', function() {
