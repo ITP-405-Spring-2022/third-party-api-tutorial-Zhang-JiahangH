@@ -72,3 +72,14 @@ Supported Methods: GET
     | Get multiple observations from a list of city id's | cities | &cities=8953360,8953361,8953362 |
     | Get multiple observations by airport ICAO's, or station id's| stations | &stations=KRDU,KSEA,LEBB |
     | Get multiple observations by lat/lon(s) | points | &points=(35.88,-78.79),(47.45,-122.3),(43.3,-2.93) |
+
+
+5. Example Request:
+    > URL: 
+    >> https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=API_KEY&include=minutely
+    > Code: 
+    ``` PHP
+    Route::get('/weather', function() {
+        return Http::get("https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=8f57412bf51e49b19fdde550c63e901a&include=minutely")->json();
+    });
+    ```
