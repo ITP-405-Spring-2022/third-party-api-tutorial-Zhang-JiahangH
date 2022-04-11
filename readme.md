@@ -91,10 +91,10 @@ Supported Methods: GET
     > URL: 
     >> https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=API_KEY&include=minutely  
 
-    > Code: 
+    > Code: (remember to replace key with your api key)
     ``` PHP
     Route::get('/weather', function() {
-        return Http::get("https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=8f57412bf51e49b19fdde550c63e901a&include=minutely")->json();
+        return Http::get("https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=YOUR_API_KEY&include=minutely")->json();
     });
     ```
 
