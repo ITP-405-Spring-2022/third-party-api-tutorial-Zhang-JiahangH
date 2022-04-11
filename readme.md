@@ -1,3 +1,5 @@
+<h1>Current Weather API</h1>
+
 1. Basic info:
 The API I wrote is to view the Weather API. This is an API provided by weatherbit. IO that provides a key and corresponding information to get real-time weather information about a place or weather related information like air quality.
 
