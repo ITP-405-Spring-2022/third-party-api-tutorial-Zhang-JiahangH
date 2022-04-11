@@ -63,7 +63,7 @@ Supported Methods: GET
 
 4. API Endpoints
     | Description                              | Required Parameters | Example |
-    | :--------------------------------------- | :------------------ | :---------------------|
+    | :--------------------------------------- | :------------------ | :----------------|
     | Get observation by lat/lon (Recommended) | lat,lon             | &lat=38.123&lon=-78.543 |
     | Get observation by city name             | city, state(optional), country (optional) | &city=Raleigh&country=US |
     | Get observation by postal code | postal_code, country (optional)	| &postal_code=27601&country=US |
