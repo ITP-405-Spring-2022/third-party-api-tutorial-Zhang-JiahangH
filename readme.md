@@ -64,8 +64,8 @@ Supported Methods: GET
     >4.1 Register/Login at <a href="https://www.weatherbit.io/" target="_blank">weather.io</a>  
 
     >4.2 First time user: you will need to set up your account info:
-    <img src="images/setup.png">
-    >> For tiers, we can choose this free plan:
+    <img src="images/setup.png">  
+    > For tiers, we can choose this free plan:
     <img src="images/choices.png">  
     
 5. API Endpoints
