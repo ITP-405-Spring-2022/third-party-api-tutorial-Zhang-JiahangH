@@ -10,9 +10,8 @@ Supported Methods: GET
 
 3. Request Parameters:  
     >3.1 key=[key] (REQUIRED)  
-        `` 
+    >>
         key - Your API Key.
-        ``
 
     >3.2 lang=[language](optional)  
     >>
