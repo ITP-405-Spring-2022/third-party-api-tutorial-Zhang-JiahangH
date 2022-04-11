@@ -3,8 +3,9 @@ The API I wrote is to view the Weather API. This is an API provided by weatherbi
 
 
 2. Base URL:
-HTTP: http://api.weatherbit.io/v2.0/current
-HTTPS: https://api.weatherbit.io/v2.0/current
+>>
+HTTP: http://api.weatherbit.io/v2.0/current  
+HTTPS: https://api.weatherbit.io/v2.0/current  
 Supported Methods: GET
 
 
