@@ -62,11 +62,12 @@ Supported Methods: GET
 
 
 4. API Endpoints
-    | Description                              | Required Parameters |
-    | :--------------------------------------- | :------------------ |
-    | Get observation by lat/lon (Recommended) | lat,lon             |
-    | Get observation by city name             | city, state(optional), country (optional) |
-    | Get observation by postal code | postal_code, country (optional)	|
-    | Get observation by city id's	| city_id	|
-    | Get observation by ICAO or station id [Use with Caution] | station |
-    | Get multiple observations from a list of city id's | cities |
+    | Description                              | Required Parameters | Example |
+    | :--------------------------------------- | :------------------ | :---------------------|
+    | Get observation by lat/lon (Recommended) | lat,lon             | &lat=38.123&lon=-78.543 |
+    | Get observation by city name             | city, state(optional), country (optional) | &city=Raleigh&country=US |
+    | Get observation by postal code | postal_code, country (optional)	| &postal_code=27601&country=US |
+    | Get observation by city id's	| city_id	| &city_id=8953360 |
+    | Get observation by ICAO or station id | station | &station=KRDU |
+    | Get multiple observations from a list of city id's | cities | &cities=8953360,8953361,8953362 |
+    | Get multiple observations by airport ICAO's, or station id's| stations | &stations=KRDU,KSEA,LEBB |
