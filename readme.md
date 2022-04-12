@@ -196,3 +196,67 @@ Supported Methods: GET
         h_angle: Solar hour angle (degrees).
     ]
 ```
+****
+<h1>Google Login API</h1> 
+
+1. Basic info:
+Using this API, you can integrate Google Sign-in into your web applications via OAuth 2.0.  
+
+2. Preparation:
+>Login to your google account. Then go to <a href="https://console.developers.google.com/apis/credentials">Credential Page</a>  
+>If it is your first time using this, you need first create your project, then go to OAuth consent screen to create a consent (Both internal and external will work, if there's no publishing plan, internal will be easier).  
+>Then, go to Credentials, and click on Create Credentials to create a OAuth 2.0 Credentials (In this class, we might need a web application). We need to fill in Authorized JavaScript origins(the HTTP origins that host your web application) and Authorized redirect URIs (Users will be redirected to this path after they have authenticated with Google, like index).  
+> Then, the OAuth 2.0 Client IDs will be in the Credentials page under client ID (which is end with .apps.googleusercontent.com)  
+
+3. Usage:
+> Load the Google Platform Library:
+> You must include the Google Platform Library on your web pages that integrate Google Sign-In. (like in the index page)
+```
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+```  
+
+> Specify your app's client ID:
+> Specify the client ID you created for your app in the Google Developers Console with the google-signin-client_id meta element.  
+```
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+```
+
+> Then, we can use a Google Sign-In button to implement the sign-in function. With only a few lines of code, you can add a button that automatically configures itself to have the appropriate text, logo, and colors for the sign-in state of the user and the scopes you request.  
+``` html
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+```  
+> Then, within the script part, we can access the logged-in user's info by using google function like onSignIn(googleUser) function to handle the googleUser(object of user).
+
+> Or, we can customize the login button by using auth2 = gapi.auth2.init() function to login. Here's an example:
+
+``` javascript
+<script>
+  var googleUser = {};
+  var startApp = function() {
+    gapi.load('auth2', function(){
+      // Retrieve the singleton for the GoogleAuth library and set up the client.
+      auth2 = gapi.auth2.init({
+        client_id: 'YOUR_CLIENT_ID',
+        cookiepolicy: 'single_host_origin',
+        // Request scopes in addition to 'profile' and 'email'
+        //scope: 'additional_scope'
+      });
+      attachSignin(document.getElementById('customBtn'));
+    });
+  };
+
+  function attachSignin(element) {
+    console.log(element.id);
+    auth2.attachClickHandler(element, {},
+        function(googleUser) {
+          // display as JSON format
+          document.getElementById('name').innerText = JSON.stringify(googleUser, undefined, 2);
+        }, function(error) {
+          alert(JSON.stringify(error, undefined, 2));
+        });
+  }
+  </script>
+  ```
+
+4. Result:
+> The return result is a googleUser object which include basic info like name, email, and Image URL. It could be convert into JSON but it will revealed some private info (like id) so there's no screenshot presented.
