@@ -203,10 +203,18 @@ Supported Methods: GET
 Using this API, you can integrate Google Sign-in into your web applications via OAuth 2.0.  
 
 2. Preparation:
->Login to your google account. Then go to <a href="https://console.developers.google.com/apis/credentials">Credential Page</a>  
+>Login to your google account. Then go to <a href="https://console.developers.google.
+  
 >If it is your first time using this, you need first create your project, then go to OAuth consent screen to create a consent (Both internal and external will work, if there's no publishing plan, internal will be easier).  
+com/apis/credentials">Credential Page</a>  
+<img src="images/step1.png">  
+  
 >Then, go to Credentials, and click on Create Credentials to create a OAuth 2.0 Credentials (In this class, we might need a web application). We need to fill in Authorized JavaScript origins(the HTTP origins that host your web application) and Authorized redirect URIs (Users will be redirected to this path after they have authenticated with Google, like index).  
+<img src="images/step2.png">  
+  
 > Then, the OAuth 2.0 Client IDs will be in the Credentials page under client ID (which is end with .apps.googleusercontent.com)  
+<img src="images/step3.png">  
+  
 
 3. Usage:
 > Load the Google Platform Library:
